@@ -1,6 +1,6 @@
 # Norwegian Analogy Test Set
 
-This repository distributes the Norwegian Analogy Test Set, created through the translation and modification 
+This repository holds the Norwegian Analogy Test Set, created through the translation and modification 
 of the original Google Analogy Test Set developed by T. Mikolov, K. Chen, G. Corrado and J. Dean, 
 [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf).
 
