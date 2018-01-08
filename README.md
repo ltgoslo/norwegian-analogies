@@ -1,2 +1,2 @@
 # norwegian-analogies
-Norwegian Analogy Test Test
+Norwegian Analogy Test Set
