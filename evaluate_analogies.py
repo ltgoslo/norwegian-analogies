@@ -5,7 +5,7 @@ import logging
 from gensim.models.keyedvectors import KeyedVectors
 
 def evaluate_analogies(model, analogies, restriction):
-	""" Compute accuracy on the nalogy test set. """
+	""" Compute accuracy on the analogy test set. """
 
 	accuracy = model.accuracy(analogies, restrict_vocab=int(restriction), case_insensitive=True)
 
@@ -28,7 +28,7 @@ def main():
 	
 	analogies = 'norwegian-analogies.txt' 
 	model_path = sys.argv[1] # Path to model
-	restriction = sys.argv[2] # Questions including a word not present in the 'restriction' most frequent words are ignored
+	restriction = sys.argv[2] # Questions including a word not in the 'restriction' most frequent words are ignored
 	model = KeyedVectors.load_word2vec_format(model_path, binary=False)
 	evaluate_analogies(model, analogies, restriction)
 
