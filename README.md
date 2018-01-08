@@ -9,4 +9,4 @@ The test set ```norwegian-analogies.txt``` is a list of 17,807 Norwegian analogy
 questions, divided into subsets of 8,944 semantic and 8,863 syntactic questions, 
 such as ```gutt jente bror søster``` and ```dårlig dårligere stor større```.
 
-The script ```eval.py``` can be used for evaluating model performance in predicting analogies.
+The script ```evaluate_analogies.py``` can be used for evaluating model performance in predicting analogies.
