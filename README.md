@@ -22,4 +22,4 @@ analogy questions considered. Questions including a word not in the `<restrictio
 
 ### Example
 
-```python evaluate_analogies.py <model> <vocabulary restriction>```
+```python evaluate_analogies.py <model> <restriction>```
