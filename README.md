@@ -17,8 +17,8 @@ The script ```evaluate_analogies.py``` can be used for evaluating model performa
 In order for the script to work, [gensim](https://radimrehurek.com/gensim/) must be installed. 
 Further, the `<model>` must be compatible with the original [word2vec](https://code.google.com/archive/p/word2vec/)
 implementation and provided in text format (or one can modify the script). 
-The second argument `<vocabulary restriction>` limits the number of analogy questions considered, for example 30000. 
-Questions including a word not in this number of most frequent words are ignored.
+The second argument `<restriction>` limits the size of the vocabulary and thus the number of 
+analogy questions considered. Questions including a word not in the `<restriction>` most frequent words are ignored.
 
 ### Example
 
