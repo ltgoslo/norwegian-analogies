@@ -27,9 +27,8 @@ def main():
 	logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	
 	analogies = 'norwegian-analogies.txt' 
-	model_path = sys.argv[1] 	# Path to model
-	restriction = sys.argv[2] 	# Questions including a word not present in the 
-								#'restriction' most frequent words are ignored
+	model_path = sys.argv[1] # Path to model
+	restriction = sys.argv[2] # Questions including a word not present in the 'restriction' most frequent words are ignored
 	model = KeyedVectors.load_word2vec_format(model_path, binary=False)
 	evaluate_analogies(model, analogies, restriction)
 
