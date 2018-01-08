@@ -1,4 +1,4 @@
-# Norwegian Analogy Test Set
+# The Norwegian Analogy Test Set
 
 This repository holds the Norwegian Analogy Test Set, created for the purpose of evaluating 
 distributional semantic models. The test set was created through the translation and modification 
