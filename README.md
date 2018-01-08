@@ -9,7 +9,7 @@ of the original Google Analogy Test Set developed by T. Mikolov, K. Chen, G. Cor
 
 The test set ```norwegian-analogies.txt``` is a list of 17,807 Norwegian analogy 
 questions, divided into subsets of 8,944 semantic and 8,863 syntactic questions, 
-such as ```gutt jente bror søster``` and ```dårlig dårligere stor større```.
+such as ```gutt jente bror søster``` and ```dårlig dårligere stor større```. 
 
 ## Evaluation
 
