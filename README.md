@@ -15,8 +15,8 @@ The syntactic subset includes 8,863 analogies, such as `dårlig dårligere stor 
 `evaluate_analogies.py` can be used for evaluating model performance in predicting analogies.
 In order for the script to work, [gensim](https://radimrehurek.com/gensim/) must be installed. 
 Further, the `model` must be compatible with the original [word2vec](https://code.google.com/archive/p/word2vec/)
-implementation and provided in text format. Questions including a word not in the `restriction` most frequent 
-words are ignored.
+implementation and provided in text format. Analogy questions including a word not in the `restriction` 
+most frequent words are ignored.
 
 ### Example
 
