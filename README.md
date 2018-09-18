@@ -2,7 +2,7 @@
 
 This repository holds the Norwegian Analogy Test Set. The test set was created by semiautomatically
 translating and adapting the existing [Google analogies test set](https://arxiv.org/pdf/1301.3781.pdf) 
-from English to Norwegian, for the task of analogical reasoning.
+from English to Norwegian, for evaluating the task of analogical reasoning.
 
 ## Format
 
