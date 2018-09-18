@@ -25,7 +25,7 @@ most frequent words are ignored.
 ## Citing
 
 If you publish work that uses or references this resource, please cite the following 
-[master's thesis](https://www.duo.uio.no/bitstream/handle/10852/61756/thesis.pdf): 
+[master's thesis](https://www.duo.uio.no/handle/10852/61756): 
 
 ```
 @MastersThesis{Stadsnes18,
