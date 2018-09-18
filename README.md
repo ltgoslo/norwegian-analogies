@@ -21,3 +21,26 @@ most frequent words are ignored.
 ### Example
 
 `python evaluate_analogies.py <model> <restriction>`
+
+## Citing
+
+If you publish work that uses of references this resource, please cite the following 
+[master's thesis](https://www.duo.uio.no/bitstream/handle/10852/61756/thesis.pdf): 
+
+```
+@MastersThesis{Stadsnes18,
+  author    =     {Stadsnes, Cathrine},
+  title     =     {Evaluating Semantic Vector for Norwegian},
+  school    =     {University of Oslo},
+  year      =     {2018}
+}
+```
+
+Or our [NIK article](http://ojs.bibsys.no/index.php/NIK/article/view/490/418): 
+
+```
+Evaluating Semantic Vectors for Norwegian
+Cathrine Stadsnes, Lilja Øvrelid, Erik Velldal
+2018
+http://ojs.bibsys.no/index.php/NIK/article/view/490/418
+```
